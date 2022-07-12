@@ -5,6 +5,6 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('widjet'));
 root.render(
-    <App />
+    <App/>
 );
 
