@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-// import { Widget, addResponseMessage } from 'react-chat-widget';
+import { Widget, addResponseMessage } from 'react-chat-widget';
 
 import 'react-chat-widget/lib/styles.css';
 import './app.css';
@@ -12,10 +12,10 @@ function App({ domElement }) {
   return (
     <div className="App">
       nflnsnm lorem afalsflkanfksnkjnfkjdsn
-      {/* <Widget
+      <Widget
         title="Donations Widget"
         subtitle="Welcome"
-      /> */}
+      />
     </div>
   );
 }
